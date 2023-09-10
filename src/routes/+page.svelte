@@ -13,8 +13,10 @@
 	<div class="box container mx-auto flex items-center flex-col h-full gap-8 p-4">
 		<h2 class="h2">Feur</h2>
 		<div class="carte flex justify-center gap-10">
-			<Card name="Momozhok" src="/img/momozhok.jpg"></Card>
-			<Card name="Wataa" src="/img/wata.jpg"></Card>
+			<Card name="Momozhok" src="/img/momozhok.jpg" desc="OH LE FLOP"></Card>
+			<Card name="Wataa" src="/img/wata.jpg" desc="A gagné 10€ de cash prize à un tournoi clash royal"></Card>
+			<Card name="Cassoule" src="/img/milo.jpg" desc="Est allé au stade 2 de la qualification des worlds de Call of Duty mobile"></Card>
+			<Card name="Azu" src="/img/sami.jpg" desc="Change 5 fois de photo de profile Discord par jour"></Card>
 		</div>
 	</div>
 </div>
