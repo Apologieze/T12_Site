@@ -6,10 +6,10 @@
     const toggle = () => active = ! active;
 </script>
 
-<div class="flip-box" on:click={toggle}>
+<button class="flip-box" on:click={toggle}>
     <div class="flip-box-inner" class:flip-it={active}>
         <div class="flip-box-front">
-            <div class="card p-3 card-hover flex flex-col w-full h-full gap-4">
+            <div class="card p-3 card-hover flex flex-col w-full h-full gap-4 variant-ghost">
                 <div class="title flex justify-center">
                     <h2 class="h2">{name}</h2>
                 </div>
@@ -25,7 +25,7 @@
             </div>
         </div>
     </div>
-</div>
+</button>
 
 <style>
     .flip-box {
